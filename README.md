@@ -59,6 +59,33 @@ A sample e-commerce application built using **Spring Boot**, providing a robust 
 
 ---
 
+Here's a new section you can add to your `README.md` under a heading like **⚙️ Configuration** or **📄 `application.properties` Setup**:
+
+---
+
+## ⚙️ `application.properties` Setup
+
+Make sure your `src/main/resources/application.properties` file is configured with the following settings:
+
+```properties
+# Application Info
+spring.application.name=Backend
+
+# Database Configuration
+spring.datasource.url=jdbc:postgresql://localhost:5432/dbName
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.datasource.hikari.auto-commit=false
+```
+
+> 💡 **Tip:** Make sure PostgreSQL is running locally and a database named `dbName` exists. Adjust credentials and URL based on your environment.
+
+
+
 ## 🚀 Future Enhancements
 
 * Add user authentication and authorization using **Spring Security**.
