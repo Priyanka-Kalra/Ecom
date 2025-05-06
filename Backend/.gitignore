@@ -1,0 +1,38 @@
+# Java-related files
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven-related files
+target/
+*.log
+
+# IDE-specific files
+/.idea/
+/*.vscode/
+/*.project
+/.classpath
+/.settings/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Spring Boot-specific files
+*.properties~
+*.yml~
+*.env
+
+# Sensitive files
+application.properties
+application.yml
+
+# H2 database files (if used)
+*.db
+*.mv.db
+*.trace.db
