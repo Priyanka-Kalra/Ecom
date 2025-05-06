@@ -37,7 +37,9 @@ A sample e-commerce application built using **Spring Boot**, providing a robust 
 │   └── ProductRepo.java
 ├── model            # Entity classes
 │   └── Product.java
-├── exception        # Custom exceptions and handlers
+├── configuration
+│   └── application.properties     
+
 ```
 
 ---
