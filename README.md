@@ -61,9 +61,6 @@ A sample e-commerce application built using **Spring Boot**, providing a robust 
 
 ---
 
-Here's a new section you can add to your `README.md` under a heading like **⚙️ Configuration** or **📄 `application.properties` Setup**:
-
----
 
 ## ⚙️ `application.properties` Setup
 
